@@ -17,7 +17,6 @@ Uma implementação básica de um modelo cliente-servidor usando o protocolo HTT
 
 - [Sobre](#sobre)
 - [Recursos](#recursos)
-- [Demonstração](#demonstração)
 - [Início Rápido](#início-rápido)
 - [Instalação](#instalação)
 - [Uso](#uso)
@@ -57,13 +56,6 @@ Este projeto oferece uma abordagem prática para entender como o HTTP funciona e
 Como esta é uma aplicação de linha de comando, não há uma demonstração ao vivo.  
 No entanto, aqui estão capturas de tela mostrando o cliente e o servidor em execução:
 
-### Capturas de Tela
-
-![Servidor em execução](screenshots/server-running.png)  
-*Servidor em execução, escutando conexões*
-
-![Requisição do Cliente](screenshots/client-request.png)  
-*Cliente enviando uma requisição e recebendo uma resposta do servidor*
 
 ## 🚀 Início Rápido
 
@@ -73,3 +65,19 @@ git clone https://github.com/rafa0107/Client_Server_http.git
 cd Client_Server_http
 make
 
+##  📦 Instalação
+Pré-requisitos
+
+Um compilador C (ex: GCC)
+
+Make
+
+# Clonar o repositório
+git clone https://github.com/rafa0107/Client_Server_http.git
+cd Client_Server_http
+
+# Compilar o código
+make
+
+## 💻 Uso
+Executando o Servidor
