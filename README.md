@@ -55,12 +55,16 @@ Este projeto oferece uma abordagem prática para entender como o HTTP funciona e
 
 ## 🚀 Início Rápido
 
-Clone e execute em 3 passos:
+Clone e execute em alguns passos:
 
 ```bash
 git clone https://github.com/rafa0107/Client_Server_http.git
 cd Client_Server_http
+make clean
 make
+make run-server
+make run-client
+
 ```
 
 ---

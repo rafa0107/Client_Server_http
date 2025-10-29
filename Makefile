@@ -28,4 +28,3 @@ run-server: $(SERVER)
 run-client: $(CLIENT)
 	xterm -hold -e "./$(CLIENT) http://localhost:5050/" &
 
-run: run-server run-client
