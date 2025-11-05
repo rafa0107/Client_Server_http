@@ -21,10 +21,3 @@ $(SERVER): $(SERVER_SRC)
 clean:
 	rm -f $(CLIENT) $(SERVER)
 
-# --- Novos alvos para rodar ---
-run-server: $(SERVER)
-	xterm -hold -e "./$(SERVER) ~/Desktop/http/test_files" &
-
-run-client: $(CLIENT)
-	xterm -hold -e "./$(CLIENT) http://localhost:5050/" &
-
