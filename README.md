@@ -32,7 +32,7 @@ Este ecossistema em baixo nível é composto por dois módulos independentes que
 
 ## 🎯 Destaques Técnicos (Infra & Redes)
 
-Para profissionais e avaliadores da área de Infraestrutura e Tech for Ops, este projeto implementa e valida os seguintes conceitos arquiteturais:
+Em relação à conceitos técnicos de infraestrutura e redes, o projeta conta com:
 
 * **Gerenciamento de Sockets POSIX:** Utilização ativa das chamadas de sistema fundamentais da API de redes do Linux:
   * `socket()` para inicializar os descritores de arquivos de rede (Endpoints).
