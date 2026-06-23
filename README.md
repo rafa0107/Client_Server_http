@@ -139,8 +139,8 @@ Exemplo:
 
 Este projeto não utiliza arquivos de configuração externos ou variáveis de ambiente.
 
-# Porta do Servidor: Fixada via código (#define PORT 8080 no arquivo server.c).
+Porta do Servidor: Fixada via código (#define PORT 8080 no arquivo server.c).
 
-# Tamanho do Buffer: Fixado em 8192 bytes (#define BUFFER_SIZE 8192 em ambos os arquivos) para otimização de leitura de rede.
+Tamanho do Buffer: Fixado em 8192 bytes (#define BUFFER_SIZE 8192 em ambos os arquivos) para otimização de leitura de rede.
 
-# Parâmetros Dinâmicos: Passados exclusivamente via argumentos de linha de comando no momento da execução (diretório para o servidor e URL para o cliente).
+Parâmetros Dinâmicos: Passados exclusivamente via argumentos de linha de comando no momento da execução (diretório para o servidor e URL para o cliente).
